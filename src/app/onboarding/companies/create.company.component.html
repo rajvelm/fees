@@ -1,0 +1,46 @@
+
+<form #company="ngForm" (ngSubmit)="onSubmit(company)">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Create Company</h3>
+    </div>
+    <div class="panel-body">
+
+      <div class="form-group">
+        <label for="companyName">Company Name</label>
+        <input id="companyName" type="text" class="form-control"
+               name="companyName" [(ngModel)]="company.companyName">
+      </div>
+
+      <div class="form-group">
+        <label for="companyLogo">Company Logo</label>
+        <input id="companyLogo" type="text" class="form-control"
+               name="companyLogo" [(ngModel)]="company.companyLogo">
+      </div>
+	  
+	  <div class="form-group">
+		<label for="region">Region</label>
+		<input type="text" class="form-control" id="region" name="companyLogo" [(ngModel)]="company.region" placeholder="Enter Region">
+	  </div>
+	   <div class="form-group">
+		<label for="state">State</label>
+		<input type="text" class="form-control" id="state" name="state" [(ngModel)]="company.state" placeholder="Enter State">
+	  </div>
+	  <div class="row">
+		   <div class="form-group">
+			<label for="country">Country</label>
+			<input type="text" class="form-control" id="country" name="country" [(ngModel)]="company.country"  placeholder="Enter Country">
+		  </div>
+		  <div class="form-group col-lg-4">
+			<label for="pincode">Pincode</label>
+			<input type="text" class="form-control" id="pincode" name="pincode" [(ngModel)]="company.pincode" placeholder="Enter Pincode">
+		  </div>
+	  </div>
+
+    </div>
+    <div class="panel-footer">
+      <button class="btn btn-primary" type="submit">Save</button>
+    </div>
+  </div>
+</form>
+

@@ -1,0 +1,7283 @@
+[
+	{
+	"period": "Jun2018",
+	"exchange": "CBOT",
+	"fees":[{
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "20.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "105.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "CME",
+	"fees":[{
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI)",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Reference Rate (BRR) - End of Day",
+		   "dataTimeliness": "End of Day",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "40.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "COMEX",
+	"fees":[{
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "20.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query", 
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "DME",
+	"fees":[{
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "50.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.35",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "Eris Exchange Interest Rate Swap Futures",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "All User Types",
+			   "usageType": "Display & Non Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :[  
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "Market Depth Bundle Non-Professional",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "15.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "NYMEX",
+	"fees":[{
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "30.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "SPIndices",
+	"fees":[{
+		   "product": "S&P Base",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Base - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "2.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "S&P Complete",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "4.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Complete - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "Top of Book Bundle Non-Professional",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "ICEENDEX",
+	"fees":[{
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 50,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S. - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+	"period": "May2018",
+	"exchange": "CBOT",
+	"fees":[{
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "20.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "105.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "May2018",
+	"exchange": "CME",
+	"fees":[{
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI)",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Reference Rate (BRR) - End of Day",
+		   "dataTimeliness": "End of Day",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "40.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "May2018",
+	"exchange": "COMEX",
+	"fees":[{
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "20.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query", 
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "May2018",
+	"exchange": "DME",
+	"fees":[{
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "50.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.35",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "Eris Exchange Interest Rate Swap Futures",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "All User Types",
+			   "usageType": "Display & Non Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :[  
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "Market Depth Bundle Non-Professional",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "15.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "May2018",
+	"exchange": "NYMEX",
+	"fees":[{
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "30.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "May2018",
+	"exchange": "SPIndices",
+	"fees":[{
+		   "product": "S&P Base",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Base - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "2.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "S&P Complete",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "4.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Complete - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "Top of Book Bundle Non-Professional",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "ICEENDEX",
+	"fees":[{
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 50,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S. - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+
+
+	
+	{
+	"period": "Apr2018",
+	"exchange": "CBOT",
+	"fees":[{
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT E-mini",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "20.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "105.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			  ]
+			 },
+			 {
+			   "product": "CBOT Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "CBOT Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Apr2018",
+	"exchange": "CME",
+	"fees":[{
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI)",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Real Time Index (BPRTI) - Delayed",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "POR",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME CF Bitcoin Reference Rate (BRR) - End of Day",
+		   "dataTimeliness": "End of Day",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "40.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "CME Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "CME Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Apr2018",
+	"exchange": "COMEX",
+	"fees":[{
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "20.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query", 
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "COMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Apr2018",
+	"exchange": "DME",
+	"fees":[{
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "5.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Professional",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "50.00",
+			   "frequency": "per month",
+			   "feeHistory" : [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Market-Depth",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Per Query",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.02",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "DME Market-Depth - Delayed",
+			   "dataTimeliness": "Delayed",
+			   "feeType": "All User Types",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "0.35",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "DME Top-Of-Book",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "1.00",
+			   "frequency": "per month",
+			   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 },
+			 {
+			   "product": "Eris Exchange Interest Rate Swap Futures",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "All User Types",
+			   "usageType": "Display & Non Display",
+			   "currency": "USD",
+			   "fee": "0.00",
+			   "frequency": "per month",
+			   "feeHistory" :[  
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+			 },
+			 {
+			   "product": "Market Depth Bundle Non-Professional",
+			   "dataTimeliness": "Real Time",
+			   "feeType": "Private Investor",
+			   "usageType": "Display",
+			   "currency": "USD",
+			   "fee": "15.00",
+			   "frequency": "per month",
+			   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+			 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Apr2018",
+	"exchange": "NYMEX",
+	"fees":[{
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX E-mini",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "30.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "5.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Per Query",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.02",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Professional",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "105.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "NYMEX Market-Depth - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "0.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "NYMEX Top-Of-Book",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "1.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Apr2018",
+	"exchange": "SPIndices",
+	"fees":[{
+		   "product": "S&P Base",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Base - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "2.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "S&P Complete",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "4.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 },
+		 {
+		   "product": "S&P Complete - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" : [ 
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			    ]
+		 },
+		 {
+		   "product": "Top of Book Bundle Non-Professional",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Private Investor",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": "3.00",
+		   "frequency": "per month",
+		   "feeHistory" :  [
+				   {
+					"name": "Jan 2017",
+					"value": 19
+				  },
+				  {
+					"name": "Dec 2017",
+					"value": 19
+				  },
+				  {
+					"name": "April 2018",
+					"value": 20
+				  },
+				  {
+					"name": "May2018",
+					"value": 20
+				  },
+				  {
+					"name": "June 2018",
+					"value": 20
+				  },
+				  {
+					"name": "Jan 2019",
+					"value": 22
+				  }
+			   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	},
+	{
+	"period": "Jun2018",
+	"exchange": "ICEENDEX",
+	"fees":[{
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Endex - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 50,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 35,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Canada - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Commodities - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures Europe - Financials - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 500,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S.",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 110,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Futures U.S. - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Handheld Device",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore",
+		   "dataTimeliness": "Real Time",
+		   "feeType": "Wallboard",
+		   "usageType": "Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 },
+		 {
+		   "product": "ICE Singapore - Delayed",
+		   "dataTimeliness": "Delayed",
+		   "feeType": "All User Types",
+		   "usageType": "Display & Non Display",
+		   "currency": "USD",
+		   "fee": 0,
+		   "frequency": "per month",
+		   "feeHistory" :  [
+						   {
+							"name": "Jan 2017",
+							"value": 19
+						  },
+						  {
+							"name": "Dec 2017",
+							"value": 19
+						  },
+						  {
+							"name": "April 2018",
+							"value": 20
+						  },
+						  {
+							"name": "May2018",
+							"value": 20
+						  },
+						  {
+							"name": "June 2018",
+							"value": 20
+						  },
+						  {
+							"name": "Jan 2019",
+							"value": 22
+						  }
+					   ]
+		 }],
+	"waivers" : [],
+	"documents" :[]
+	}
+
+
+	]

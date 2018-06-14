@@ -1,0 +1,301 @@
+<!-- <input type="email" class="form-control mb-3" placeholder="Type to filter the name column..." required (keyup)='updateFilter($event)'>
+<ngx-datatable
+  [columns]="columns"
+  [columnMode]="'force'"
+  [headerHeight]="40"
+  [footerHeight]="50"
+  [rowHeight]="'auto'"
+  [limit]="10"
+  [rows]='rows'>
+</ngx-datatable> -->
+<div class="row">
+    <!-- <div class="col-md-2">
+      <select class="form-control" id="feePeriod">
+        <option>June 2018</option>
+        <option>May 2018</option>
+        <option>April 2018</option>
+        <option>March 2018</option>
+        <option>February 2018</option>
+        <option>January 2018</option>
+      </select>
+    </div> -->
+    <div class="col-md-2" style="padding-left:30px">
+      <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)"> -->
+
+        <option value="Jun2018">June 2018</option>
+        <option value="May2018">May 2018</option>
+        <option value="Apr2018">April 2018</option>
+      </select>
+    </div>
+    <div class="col-md-2" style="padding-left:30px">
+      <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)"> -->
+
+        <option value="CBOT">CBOT</option>
+        <option value="CME">CME</option>
+        <option value="COMEX">COMEX</option>
+        <option value="DME">DME</option>
+        <option value="NYMEX">NYMEX</option>
+        <option value="SPIndices">S&P Indices</option>
+        <option value="ICEENDEX">ICE ENDEX</option>
+        <option value="icecanada">ICE FUTURES CANADA</option>
+        <option value="iceeuropecoi">ICE FUTURES EUROPE COI</option>
+        <option value="iceeuropefin">ICE FUTURES EUROPE FIN</option>
+        <option value="icefuturesus">ICE FUTURES U.S.</option>
+      </select>
+    </div>
+    <div class="col-md-4" ngShow="subExchangeVal!=null">
+      <button class="btn btn-default"  (click)="open(documents)"><i class="fa fa-folder-open" ></i></button>
+      <button class="btn btn-default"  (click)="open(waivers)"><i class="fa fa-tag"></i></button>
+    </div>
+    <div class="col-md-4" style="text-align:right; padding-right:30px">
+      <button class="btn btn-primary"  (click)="open(content)">Upload</button>
+      <a href="assets/data/Fees.xlsx" class="btn btn-success">Download Fees</a>
+    </div>
+</div>
+<br/>
+
+<table class="table">
+  <thead>
+    <tr>
+      <td colspan="8">
+        <input type="text" class="form-control" [(ngModel)]="filterTextVal" placeholder="Type to filter" (input)="updateFeeFilter($event)" />
+      </td>
+    </tr>
+    <!-- <tr>
+      <th style="width=16%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+      <th style="width=14%"><input type="text"/></th>
+    </tr> -->
+    <tr>
+      <th>Exchange Product</th>
+      <th style="width:17%">Data Timeliness</th>
+      <th>Fee Type</th>
+      <th>Usage Type</th>
+      <th>Currency</th>
+      <th><span class="pull-right">Fee</span> </th>
+      <th>Frequency</th>
+      <th>History</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let row of rows">
+    <tr *ngFor="let fee of row.fees">
+      <td>{{fee.product}} </td>
+      <td>{{fee.dataTimeliness}} </td>
+      <td>{{fee.feeType}} </td>
+      <td>{{fee.usageType}} </td>
+      <td>{{fee.currency}} </td>
+      <td><span class="pull-right">{{fee.fee}}</span> </td>
+      <td>{{fee.frequency}} </td>
+      <td><button class="btn btn-default"  (click)="open(history)"><i class="fa fa-bar-chart"></i></button></td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template ngbModalContainer></ng-template>
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Upload</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+          <div class="form-group">
+                <label for="exampleInputFile">File</label>
+              <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">Upload Fees or Waiver file with Period.</small>
+            </div>
+            <div class="form-group row">
+          <label for="datetimeIinput" class="col-3 col-form-label">Period</label>
+          <div class="col-9">
+            <input class="form-control" type="date" value="2018-06-08" id="datetimeIinput">
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">Type</div>
+            <div class="col-md-9">
+              <fieldset class="form-group" class="col-9">
+
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="fileType" id="fileTypeFee" value="Fee" checked> Fees
+                  </label>
+                </div>
+                <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="fileType" id="fileTypeWaiver" value="Waiver"> Waivers
+                </label>
+                </div>
+              </fieldset>
+            </div>
+</div>
+
+
+
+
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="c('Close click')">Upload</button>
+    <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<!-- History Modal -->
+<ng-template #history let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Fees History</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+      <div class="form-group">
+        <ngx-charts-bar-vertical
+                    class="chart-container"
+                    [scheme]="colorScheme"
+                    [schemeType]="schemeType"
+                    [results]="single"
+                    [gradient]="gradient"
+                    [xAxis]="showXAxis"
+                    [yAxis]="showYAxis"
+                    [legend]="showLegend"
+                    [showXAxisLabel]="showXAxisLabel"
+                    [showYAxisLabel]="showYAxisLabel"
+                    [tooltipDisabled]="tooltipDisabled"
+                    [xAxisLabel]="xAxisLabel"
+                    [yAxisLabel]="yAxisLabel"
+                    [showGridLines]="showGridLines"
+                    [barPadding]="barPadding"
+                    [roundDomains]="roundDomains"
+                    (select)="select($event)"
+                    (legendLabelClick)="onLegendLabelClick($event)">
+                  </ngx-charts-bar-vertical>
+
+      </div>
+
+  </div>
+  <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
+
+<!-- Document Modal -->
+<ng-template #documents let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Fees Documents</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+      <div class="form-group">
+          <img src="assets\images\docLibrary.png"/>
+      </div>
+
+  </div>
+
+</ng-template>
+
+<!-- Waivers Modal -->
+<ng-template #waivers let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Fees Waivers</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+      <div class="form-group">
+
+            <div class="table-responsive">
+              <table class="table mb-0">
+                <thead>
+                  <tr>
+                    <th>
+                      User Type
+                    </th>
+                    <th>
+                      Waiver Type
+                    </th>
+                    <th>
+                      Product Code
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Normal User
+                    </td>
+                    <td>
+                      N/A
+                    </td>
+                    <td>
+                      BOTACC
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      APAC User
+                    </td>
+                    <td>
+                      APAC User
+                    </td>
+                    <td>
+                      BOTENA
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Internal NETTED User
+                    </td>
+                    <td>
+                      NETTED User
+                    </td>
+                    <td>
+                      ENCACC
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      External NETTED User
+                    </td>
+                    <td>
+                      NETTED User
+                    </td>
+                    <td>
+                      BOTENT
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      View Only User
+                    </td>
+                    <td>
+                      VIEW ONLY USER
+                    </td>
+                    <td>
+                      BOTNCH
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+      </div>
+
+  </div>
+  <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
