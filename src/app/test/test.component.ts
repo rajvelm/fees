@@ -1,7 +1,6 @@
 import {Component, ViewEncapsulation} from "@angular/core";
 import {ColumnApi, GridApi, GridOptions} from "ag-grid/main";
 
-
 import RefData from "./data/refData";
 //import {ProficiencyCellRenderer} from "./proficiency-renderer.component";
 

@@ -3,6 +3,7 @@ import { Routes } from '@angular/router';
 import { ConfigComponent } from './config/config.component';
 import { IntegrateComponent } from './integrate/integrate.component';
 import { HeatmapComponent } from './heatmap/heatmap.component';
+import { TransformationComponent} from './transformation/transformation.component';
 
 export const InventoryRoutes: Routes = [
   {
@@ -33,4 +34,11 @@ export const InventoryRoutes: Routes = [
 		heading: 'Heatmap'
 	  }
   },
+  {
+    path: 'transformation',
+	  component: TransformationComponent,
+	  data: {
+		heading: 'Transformation'
+	  }
+  }
 ];

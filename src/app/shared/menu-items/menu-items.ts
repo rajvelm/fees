@@ -51,17 +51,39 @@ const MENUITEMS = [
     icon: 'basic-server2'
   },
   {
+    state: 'inventory',
+    name: 'Inventory',
+    type: 'sub',
+    icon: 'basic-paperplane',
+    children: [
+      {
+        state: 'config',
+        name: 'Config'
+      },
+
+
+	  {
+        state: 'integrate',
+        name: 'Integrate'
+      },
+	  {
+        state: 'transformation',
+        name: 'Transformation'
+      }
+    ]
+  },
+  {
     state: 'docs',
     name: 'Documents',
     type: 'link',
     icon: 'basic-server2'
-  },
-  {
-    state: 'test',
-    name: 'Test',
-    type: 'link',
-    icon: 'basic-server2'
   }
+  // {
+  //   state: 'test',
+  //   name: 'Test',
+  //   type: 'link',
+  //   icon: 'basic-server2'
+  // }
 
 ];
 

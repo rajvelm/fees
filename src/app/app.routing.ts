@@ -22,6 +22,10 @@ export const AppRoutes: Routes = [{
     loadChildren: './inventory/inventory.module#InventoryModule'
   },
   {
+    path: 'forms',
+    loadChildren: './form/form.module#FormModule'
+  }, 
+  {
     path: 'fees',
     loadChildren: './fees/fees.module#FeesModule'
   },

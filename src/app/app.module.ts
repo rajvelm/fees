@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Http, HttpModule } from '@angular/http';
- 
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -46,8 +45,7 @@ export function createTranslateLoader(http: Http) {
       }
     }),
     NgbModule.forRoot(),
-    SidebarModule.forRoot(),
-	 
+    SidebarModule.forRoot()
   ],
   providers: [CompanyService],
   bootstrap: [AppComponent]

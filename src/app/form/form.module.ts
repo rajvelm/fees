@@ -17,7 +17,9 @@ import { ValidationComponent } from './validation/validation.component';
 import { UploadComponent } from './upload/upload.component';
 import { TreeComponent } from './tree/tree.component';
 import { WizardComponent } from './wizard/wizard.component';
- 
+
+import { FormWizardModule } from 'angular2-wizard';
+
 
 
 @NgModule({
@@ -31,6 +33,7 @@ import { WizardComponent } from './wizard/wizard.component';
     TreeModule,
     TextMaskModule,
     FileUploadModule,
+    FormWizardModule
   ],
   declarations: [BasicComponent, MasksComponent, EditorComponent, ValidationComponent, UploadComponent, TreeComponent, WizardComponent]
 })

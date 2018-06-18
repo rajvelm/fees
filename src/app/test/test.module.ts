@@ -5,8 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { JsonpModule } from '@angular/http';
 import { AgGridModule} from 'ag-grid-angular';
 
-
-
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -14,7 +12,6 @@ import { DragulaModule } from 'ng2-dragula/ng2-dragula';
 
 import { TestComponent } from './test.component';
 import { TestRoutes } from './test.routing';
-
 
 @NgModule({
   imports: [NgbTooltipModule,
