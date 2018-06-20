@@ -58,18 +58,22 @@ const MENUITEMS = [
     children: [
       {
         state: 'config',
-        name: 'Config'
+        name: 'Configuration'
       },
 
 
 	  {
         state: 'integrate',
-        name: 'Integrate'
+        name: 'Integration'
       },
-	  {
+	   {
         state: 'transformation',
         name: 'Transformation'
-      }
+      },
+      {
+         state: 'heatmap',
+         name: 'Validation'
+       }
     ]
   },
   {

@@ -4,11 +4,11 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { single, multi } from '../../shared/chartData';
 
 @Component({
-  selector: 'app-integrate',
-  templateUrl: './integrate.component.html',
-  styleUrls: ['./integrate.component.scss']
+  selector: 'app-integrateStep2',
+  templateUrl: './integrateStep2.component.html',
+  styleUrls: ['./integrateStep2.component.scss']
 })
-export class IntegrateComponent implements OnInit {
+export class IntegrateStep2Component implements OnInit {
   private gridOptions: GridOptions;
   private icons: any;
   public rowData: any[];

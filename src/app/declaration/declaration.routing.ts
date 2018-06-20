@@ -10,5 +10,5 @@ export const DeclarationRoutes: Routes = [
 			heading: 'Declaration',
 			removeFooter: true
 		  }
-	 } 
+	 }
 ];

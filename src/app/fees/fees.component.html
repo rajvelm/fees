@@ -1,35 +1,16 @@
-<!-- <input type="email" class="form-control mb-3" placeholder="Type to filter the name column..." required (keyup)='updateFilter($event)'>
-<ngx-datatable
-  [columns]="columns"
-  [columnMode]="'force'"
-  [headerHeight]="40"
-  [footerHeight]="50"
-  [rowHeight]="'auto'"
-  [limit]="10"
-  [rows]='rows'>
-</ngx-datatable> -->
 <div class="row">
-    <!-- <div class="col-md-2">
-      <select class="form-control" id="feePeriod">
-        <option>June 2018</option>
-        <option>May 2018</option>
-        <option>April 2018</option>
-        <option>March 2018</option>
-        <option>February 2018</option>
-        <option>January 2018</option>
-      </select>
-    </div> -->
-    <div class="col-md-2" style="padding-left:30px">
-      <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)"> -->
 
-        <option value="Jun2018">June 2018</option>
+    <div class="col-md-2" >
+      <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)">
+
+        <option value="Jun2018" selected="selected">June 2018</option>
         <option value="May2018">May 2018</option>
         <option value="Apr2018">April 2018</option>
       </select>
     </div>
-    <div class="col-md-2" style="padding-left:30px">
-      <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)"> -->
-
+    <div class="col-md-2" >
+      <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)">
+        <option value="ALL" selected>All</option>
         <option value="CBOT">CBOT</option>
         <option value="CME">CME</option>
         <option value="COMEX">COMEX</option>
@@ -53,47 +34,23 @@
     </div>
 </div>
 <br/>
+<ag-grid-angular
+    style="width: 99%; height: 78vh"
+    class="theme-dark"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+  	[pagination]="true"
+  	[paginationAutoPageSize]="true"
+  	[gridOptions]="gridOptions"
+  	[animateRows]="true"
+  	[rowSelection]="rowSelection"
 
-<table class="table">
-  <thead>
-    <tr>
-      <td colspan="8">
-        <input type="text" class="form-control" [(ngModel)]="filterTextVal" placeholder="Type to filter" (input)="updateFeeFilter($event)" />
-      </td>
-    </tr>
-    <!-- <tr>
-      <th style="width=16%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-      <th style="width=14%"><input type="text"/></th>
-    </tr> -->
-    <tr>
-      <th>Exchange Product</th>
-      <th style="width:17%">Data Timeliness</th>
-      <th>Fee Type</th>
-      <th>Usage Type</th>
-      <th>Currency</th>
-      <th><span class="pull-right">Fee</span> </th>
-      <th>Frequency</th>
-      <th>History</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let row of rows">
-    <tr *ngFor="let fee of row.fees">
-      <td>{{fee.product}} </td>
-      <td>{{fee.dataTimeliness}} </td>
-      <td>{{fee.feeType}} </td>
-      <td>{{fee.usageType}} </td>
-      <td>{{fee.currency}} </td>
-      <td><span class="pull-right">{{fee.fee}}</span> </td>
-      <td>{{fee.frequency}} </td>
-      <td><button class="btn btn-default"  (click)="open(history)"><i class="fa fa-bar-chart"></i></button></td>
-    </tr>
-  </tbody>
-</table>
+    
+	>
+</ag-grid-angular>
+
 
 <ng-template ngbModalContainer></ng-template>
 <ng-template #content let-c="close" let-d="dismiss">
@@ -205,7 +162,7 @@
 </ng-template>
 
 <!-- Waivers Modal -->
-<ng-template #waivers let-c="close" let-d="dismiss">
+ <ng-template #waivers let-c="close" let-d="dismiss">
   <div class="modal-header">
     <h6 class="modal-title text-uppercase">Fees Waivers</h6>
     <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
@@ -299,3 +256,76 @@
      <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
   </div>
 </ng-template>
+
+
+ <!--
+<div class="row">
+
+    <div class="col-md-2" style="padding-left:30px">
+      <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)">
+
+        <option value="Jun2018">June 2018</option>
+        <option value="May2018">May 2018</option>
+        <option value="Apr2018">April 2018</option>
+      </select>
+    </div>
+    <div class="col-md-2" style="padding-left:30px">
+      <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)">
+
+        <option value="CBOT">CBOT</option>
+        <option value="CME">CME</option>
+        <option value="COMEX">COMEX</option>
+        <option value="DME">DME</option>
+        <option value="NYMEX">NYMEX</option>
+        <option value="SPIndices">S&P Indices</option>
+        <option value="ICEENDEX">ICE ENDEX</option>
+        <option value="icecanada">ICE FUTURES CANADA</option>
+        <option value="iceeuropecoi">ICE FUTURES EUROPE COI</option>
+        <option value="iceeuropefin">ICE FUTURES EUROPE FIN</option>
+        <option value="icefuturesus">ICE FUTURES U.S.</option>
+      </select>
+    </div>
+    <div class="col-md-4" ngShow="subExchangeVal!=null">
+      <button class="btn btn-default"  (click)="open(documents)"><i class="fa fa-folder-open" ></i></button>
+      <button class="btn btn-default"  (click)="open(waivers)"><i class="fa fa-tag"></i></button>
+    </div>
+    <div class="col-md-4" style="text-align:right; padding-right:30px">
+      <button class="btn btn-primary"  (click)="open(content)">Upload</button>
+      <a href="assets/data/Fees.xlsx" class="btn btn-success">Download Fees</a>
+    </div>
+</div>
+<br/>
+
+<table class="table">
+  <thead>
+    <tr>
+      <td colspan="8">
+        <input type="text" class="form-control" [(ngModel)]="filterTextVal" placeholder="Type to filter" (input)="updateFeeFilter($event)" />
+      </td>
+    </tr>
+
+    <tr>
+      <th>Exchange Product</th>
+      <th style="width:17%">Data Timeliness</th>
+      <th>Fee Type</th>
+      <th>Usage Type</th>
+      <th>Currency</th>
+      <th><span class="pull-right">Fee</span> </th>
+      <th>Frequency</th>
+      <th>History</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let row of rows">
+    <tr *ngFor="let fee of row.fees">
+      <td>{{fee.product}} </td>
+      <td>{{fee.dataTimeliness}} </td>
+      <td>{{fee.feeType}} </td>
+      <td>{{fee.usageType}} </td>
+      <td>{{fee.currency}} </td>
+      <td><span class="pull-right">{{fee.fee}}</span> </td>
+      <td>{{fee.frequency}} </td>
+      <td><button class="btn btn-default"  (click)="open(history)"><i class="fa fa-bar-chart"></i></button></td>
+    </tr>
+  </tbody>
+</table>
+-->

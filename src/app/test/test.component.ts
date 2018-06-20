@@ -24,6 +24,8 @@ export class TestComponent {
         this.gridOptions = <GridOptions>{};
         this.rowData = this.createRowData();
         this.columnDefs = this.createColumnDefs();
+        this.gridOptions.rowStyle={background:'grey'};
+
     }
 
   private onReady(params) {
