@@ -1,14 +1,41 @@
-<ag-grid-angular
-    style="width: 99%; height: 78vh;"
-    class="theme-dark"
-    [enableSorting]="true"
-    [enableFilter]="true"
-    [rowData]="rowData"
-    [columnDefs]="columnDefs"
-  	[pagination]="true"
-  	[paginationAutoPageSize]="true"
-  	[gridOptions]="gridOptions"
-  	[animateRows]="true"
-  	[rowSelection]="rowSelection"
-	>
-</ag-grid-angular>
+<div class="row">
+  <div class="col-md-2">
+    <div class="form-group">
+      <label>Configuration</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>TT_Configuration</option>
+          <option>MDM_Configuration</option>
+          <option>Fidessa_Configuration</option>
+          <option>Trep_Configuration</option>
+          <option>Bloomberg_Configuration</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="form-group">
+      <label>Period</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>June 2018</option>
+          <option>May 2018</option>
+          <option>April 2018</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="col-md-2">
+    <div class="form-group">
+      <label>File Upload</label>
+      <input type="file" />
+    </div>
+  </div>
+  <div class="col-md-1">
+    <div class="form-group">
+      <br/>
+      <a class="btn btn-primary" href="/inventory/integrateStep2" style="margin-left:10px">Get data </a>
+    </div>
+  </div>
+
+</div>

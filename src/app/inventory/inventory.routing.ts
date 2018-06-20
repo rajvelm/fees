@@ -13,28 +13,28 @@ export const InventoryRoutes: Routes = [
     path: '',
     component: ConfigComponent,
     data: {
-      heading: 'Config'
+      heading: 'Configuration'
     }
   },
   {
     path: 'config',
 	  component: ConfigComponent,
 	  data: {
-		heading: 'Config'
+		heading: 'Configuration'
 	  }
   },
   {
     path: 'integrate',
 	  component: IntegrateComponent,
 	  data: {
-		heading: 'Integrate'
+		heading: 'Integration'
 	  }
   },
   {
     path: 'integrateStep2',
 	  component: IntegrateStep2Component,
 	  data: {
-		heading: 'IntegrateStep2'
+		heading: 'Integration'
 	  }
   },
   {
@@ -48,14 +48,14 @@ export const InventoryRoutes: Routes = [
     path: 'transformationStep2',
 	  component: TransformationComponentStep2,
 	  data: {
-		heading: 'TransformationStep2'
+		heading: 'Transformation'
 	  }
   },
   {
     path: 'transformationStep3',
 	  component: TransformationComponentStep3,
 	  data: {
-		heading: 'TransformationStep3'
+		heading: 'Transformation'
 	  }
   },
   {

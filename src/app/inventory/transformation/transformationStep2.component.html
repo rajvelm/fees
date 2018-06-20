@@ -1,3 +1,51 @@
+<div class="row">
+  <div class="col-sm-2">
+      <label>Configuration</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>TT_Configuration</option>
+          <option>MDM_Configuration</option>
+          <option>Fidessa_Configuration</option>
+          <option>Trep_Configuration</option>
+          <option>Bloomberg_Configuration</option>
+      </select>
+  </div>
+
+  <div class="col-sm-2">
+      <label>Mapping</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>TT_Mapping</option>
+          <option>MDM_Mapping</option>
+          <option>Fidessa_Mapping</option>
+          <option>Trep_Mapping</option>
+          <option>Bloomberg_Mapping</option>
+      </select>
+  </div>
+
+  <div class="col-sm-2">
+      <label>Period</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>June 2018</option>
+          <option>May 2018</option>
+          <option>April 2018</option>
+      </select>
+  </div>
+
+
+
+  <div class="col-sm-1" style="padding-top:28px">
+  </div>
+
+  <div class="col-sm-5" style="text-align:right;padding-top:28px;padding-right:20px">
+      <button class="btn btn-default"><i class="fa fa-bar-chart"></i></button>
+      <button class="btn btn-primary" (click)="open(applyWaiver)" >Apply Waivers</button>
+  </div>
+</div>
+<br/>
+
+
 <ag-grid-angular
     style="width: 99%; height: 86vh;"
     class="theme-blue"
@@ -12,3 +60,66 @@
   	[rowSelection]="rowSelection"
 	>
 </ag-grid-angular>
+
+<ng-template ngbModalContainer></ng-template>
+<ng-template #applyWaiver let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Waivers</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-sm-3">
+          <label><strong>Exchange</strong></label>
+          <select class="form-control">
+              <option>Select</option>
+              <option selected>CME</option>
+          </select>
+      </div>
+
+      <div class="col-sm-3">
+          <label><strong>Period</strong></label>
+          <select class="form-control">
+              <option>Select</option>
+              <option selected>June 2018</option>
+              <option>May 2018</option>
+              <option>April 2018</option>
+          </select>
+      </div>
+
+      <div class="col-sm-6">
+          <label><strong>Waiver Type</strong></label>
+          <div class="form-group">
+              <input type="radio" checked name="wt"/>Netted
+              <input type="radio" name="wt"/>View Only
+              <input type="radio" name="wt"/>AMDI
+          </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+          <label><strong>Clients </strong></label>
+          <select class="form-control" multiple style="height:200px">
+          </select>
+      </div>
+      <div class="col-md-2" >
+        <br/><br/><br/><br/>
+          <button class="btn btn-xs btn-primary" style="padding-bottom:3px"><i class="fa fa-bar-chart"></i></button><br/><br/>
+          <button class="btn btn-xs btn-primary"><i class="fa fa-bar-chart"></i></button>
+      </div>
+      <div class="col-md-5">
+          <label><strong>Selected Clients</strong> </label>
+          <select class="form-control" multiple style="height:200px">
+          </select>
+      </div>
+    </div>
+
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary" (click)="c('Close click')">Save</button>
+    <button type="button" class="btn btn-secondary" (click)="c('Close click')">Cancel</button>
+  </div>
+</ng-template>

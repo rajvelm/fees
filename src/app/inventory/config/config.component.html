@@ -1,4 +1,46 @@
 <div class="row">
+
+  <div class="col-md-6">
+    <div class="form-group">
+      <label>Configuration Name</label>
+      <input type="text" class="form-control" placeholder="Enter Configuration Name"/>
+    </div>
+
+    <div class="form-group">
+      <label>Upload Configuration File</label>
+      <input type="file" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary">Create</button>
+      <button class="btn btn-default">Cancel</button>
+    </div>
+
+  </div>
+
+  <div class="col-md-6">
+    <div class="form-group">
+      <label>Mapping Name</label>
+      <input type="text" class="form-control" placeholder="Enter Configuration Name"/>
+    </div>
+
+    <div class="form-group">
+      <label>Upload Rule/Mapping File</label>
+      <input type="file" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary">Create</button>
+      <button class="btn btn-default">Cancel</button>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- <div class="row">
     <div class="col-md-2">
       <select class="form-control">
 
@@ -32,9 +74,7 @@
 		  <th (click)="sort('displayName')">DisplayName
 		   <span class="fa fa-angle-up"  *ngIf="key =='displayName'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
 		  </th>
-		  <!-- <th (click)="sort('userGroup')">User Group
-		  <span class="fa fa-angle-up"  *ngIf="key =='userGroup'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th> -->
+
 		  <th (click)="sort('userStatus')">UserStatus
 		  <span class="fa fa-angle-up" *ngIf="key =='userStatus'" [ngClass]="{'fa fa-angle-up':reverse,'fa fa-angle-down':!reverse}"></span>
 		  </th>
@@ -47,63 +87,27 @@
 		  <th (click)="sort('allowed')">Allowed
 		  <span class="fa fa-angle-up"  *ngIf="key =='allowed'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
 		  </th>
-		  <!-- <th (click)="sort('lastChanged')">Last Changed
-		  <span class="fa fa-angle-up"  *ngIf="key =='lastChanged'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('createdDate')">Created Date
-		  <span class="fa fa-angle-up"  *ngIf="key =='createdDate'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th> -->
-      <!-- <th (click)="sort('lockedOut')">LockedOut
-		  <span class="fa fa-angle-up"  *ngIf="key =='lockedOut'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th> -->
+
       <th (click)="sort('lastLoggedIn')">LastLoggedIn
 		  <span class="fa fa-angle-up"  *ngIf="key =='lastLoggedIn'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
 		  </th>
-      <!-- <th (click)="sort('country')">Country
-		  <span class="fa fa-angle-up"  *ngIf="key =='country'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('address')">Address
-		  <span class="fa fa-angle-up"  *ngIf="key =='address'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('city')">City
-		  <span class="fa fa-angle-up"  *ngIf="key =='city'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('state')">State
-		  <span class="fa fa-angle-up"  *ngIf="key =='state'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('postalCode')">Postal Code
-		  <span class="fa fa-angle-up"  *ngIf="key =='postalCode'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('email')">Email
-		  <span class="fa fa-angle-up"  *ngIf="key =='email'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th>
-      <th (click)="sort('phoneNumber')">Phone Number
-		  <span class="fa fa-angle-up"  *ngIf="key =='phoneNumber'" [ngClass]="{'fa fa-arrow-up':reverse,'fa fa-arrow-down':!reverse}"></span>
-		  </th> -->
+
 		</tr>
 	  </thead>
 	  <tbody>
 		<tr *ngFor="let row of rows | orderBy: key : reverse | filter:filter; let i = index">
 		  <td>{{row.displayName}} </td>
-		  <!-- <td>{{row.userGroup}} </td> -->
+
 		  <td>{{row.userStatus}} </td>
 		  <td>{{row.market}} </td>
 		  <td>{{row.productGroup}} </td>
 		  <td>{{row.allowed}}</td>
-		  <!-- <td>{{row.lastChanged}} </td>
-      <td>{{row.createdDate}} </td> -->
-      <!-- <td>{{row.lockedOut}} </td> -->
+
       <td>{{row.lastLoggedIn}} </td>
-      <!-- <td>{{row.country}} </td>
-      <td>{{row.address}} </td>
-      <td>{{row.city}} </td>
-      <td>{{row.state}} </td>
-      <td>{{row.postalCode}} </td>
-      <td>{{row.email}} </td>
-      <td>{{row.phoneNumber}} </td> -->
+
 		</tr>
 	  </tbody>
 	</table>
 </div>
 </div>
-</div>
+</div> -->
