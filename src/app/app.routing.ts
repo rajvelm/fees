@@ -24,7 +24,7 @@ export const AppRoutes: Routes = [{
   {
     path: 'forms',
     loadChildren: './form/form.module#FormModule'
-  }, 
+  },
   {
     path: 'fees',
     loadChildren: './fees/fees.module#FeesModule'
@@ -36,6 +36,10 @@ export const AppRoutes: Routes = [{
   {
     path: 'declaration',
     loadChildren: './declaration/declaration.module#DeclarationModule'
+  },
+  {
+    path: 'chargeback',
+    loadChildren: './chargeback/chargeback.module#ChargebackModule'
   },
   {
     path: 'test',

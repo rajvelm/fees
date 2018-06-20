@@ -83,8 +83,8 @@ const MENUITEMS = [
     icon: 'ecommerce-graph2'
   },
   {
-    state: 'chargebacks',
-    name: 'Chargebacks',
+    state: 'chargeback',
+    name: 'Chargeback',
     type: 'link',
     icon: 'ecommerce-wallet'
   },
