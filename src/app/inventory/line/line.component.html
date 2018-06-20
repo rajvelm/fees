@@ -1,0 +1,33 @@
+
+  <div class="col-sm-12 col-md-12">
+    <div class="card">
+     
+      <div class="card-block">
+        <div>
+          <ngx-charts-line-chart
+            class="chart-container"
+            [scheme]="colorScheme"
+            [schemeType]="schemeType"
+            [results]="dateDataWithOrWithoutRange"
+            [legend]="showLegend"
+            (legendLabelClick)="onLegendLabelClick($event)"
+            [gradient]="gradient"
+            [xAxis]="showXAxis"
+            [yAxis]="showYAxis"
+            [showXAxisLabel]="showXAxisLabel"
+            [showYAxisLabel]="showYAxisLabel"
+            [xAxisLabel]="xAxisLabel"
+            [yAxisLabel]="yAxisLabel"
+            [autoScale]="autoScale"
+            [timeline]="timeline"
+            [showGridLines]="showGridLines"
+            [curve]="curve"
+            [rangeFillOpacity]="rangeFillOpacity"
+            [roundDomains]="roundDomains"
+            [tooltipDisabled]="true"
+            (select)="select($event)">
+          </ngx-charts-line-chart>
+        </div>
+      </div>
+    </div>
+  </div>

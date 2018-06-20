@@ -48,13 +48,13 @@ const MENUITEMS = [
     state: 'fees',
     name: 'Fees',
     type: 'link',
-    icon: 'basic-server2'
+    icon: 'ecommerce-dollar'
   },
   {
     state: 'inventory',
     name: 'Inventory',
     type: 'sub',
-    icon: 'basic-paperplane',
+    icon: 'basic-server2',
     children: [
       {
         state: 'config',
@@ -77,10 +77,22 @@ const MENUITEMS = [
     ]
   },
   {
+    state: 'declarations',
+    name: 'Declarations',
+    type: 'link',
+    icon: 'ecommerce-graph2'
+  },
+  {
+    state: 'chargebacks',
+    name: 'Chargebacks',
+    type: 'link',
+    icon: 'ecommerce-wallet'
+  },
+  {
     state: 'docs',
     name: 'Documents',
     type: 'link',
-    icon: 'basic-server2'
+    icon: 'basic-archive-full'
   }
   // {
   //   state: 'test',

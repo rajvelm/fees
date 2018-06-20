@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import { DragulaModule } from 'ng2-dragula/ng2-dragula';
 
@@ -20,10 +21,12 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { Ng2OrderModule } from 'ng2-order-pipe';
 import { AgGridModule } from 'ag-grid-angular';
 
+import { LineComponent } from './line/line.component';
+
 @NgModule({
   imports: [CommonModule, RouterModule.forChild(InventoryRoutes), DragulaModule, Ng2SearchPipeModule,
-	Ng2OrderModule, FormsModule, AgGridModule.withComponents([]),],
-  declarations: [ConfigComponent,IntegrateComponent,IntegrateStep2Component,HeatmapComponent, TransformationComponent,TransformationComponentStep2, TransformationComponentStep3]
+	Ng2OrderModule, FormsModule,ReactiveFormsModule, AgGridModule.withComponents([]),NgxChartsModule],
+  declarations: [ConfigComponent,IntegrateComponent,IntegrateStep2Component,HeatmapComponent, TransformationComponent,TransformationComponentStep2, TransformationComponentStep3,LineComponent]
 })
 
 export class InventoryModule {}

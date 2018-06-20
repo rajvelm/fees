@@ -31,7 +31,7 @@
 
   <div class="col-sm-5" style="text-align:right;padding-top:28px;padding-right:20px">
 
-      <button class="btn btn-default"><i class="fa fa-bar-chart"></i></button>
+      <button class="btn btn-default" (click)="open(history)"><i class="fa fa-bar-chart"></i></button>
 
 
       <a class="btn btn-primary" href="inventory/transformation" >Validate</a>
@@ -53,3 +53,44 @@
   	[rowSelection]="rowSelection"
 	>
 </ag-grid-angular>
+
+<ng-template ngbModalContainer></ng-template>
+
+<ng-template #history let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">User Count</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+      <div class="form-group">
+        <ngx-charts-bar-vertical
+                    class="chart-container"
+                    [scheme]="colorScheme"
+                    [schemeType]="schemeType"
+                    [results]="single"
+                    [gradient]="gradient"
+                    [xAxis]="showXAxis"
+                    [yAxis]="showYAxis"
+                    [legend]="showLegend"
+                    [showXAxisLabel]="showXAxisLabel"
+                    [showYAxisLabel]="showYAxisLabel"
+                    [tooltipDisabled]="tooltipDisabled"
+                    [xAxisLabel]="xAxisLabel"
+                    [yAxisLabel]="yAxisLabel"
+                    [showGridLines]="showGridLines"
+                    [barPadding]="barPadding"
+                    [roundDomains]="roundDomains"
+                    (select)="select($event)"
+                    (legendLabelClick)="onLegendLabelClick($event)">
+                  </ngx-charts-bar-vertical>
+
+      </div>
+
+  </div>
+  <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>

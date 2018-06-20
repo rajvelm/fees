@@ -13,14 +13,14 @@ export const InventoryRoutes: Routes = [
     path: '',
     component: ConfigComponent,
     data: {
-      heading: 'Configuration'
+      heading: 'Configuration, Mapping'
     }
   },
   {
     path: 'config',
 	  component: ConfigComponent,
 	  data: {
-		heading: 'Configuration'
+		heading: 'Configuration, Mapping'
 	  }
   },
   {

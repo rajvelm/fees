@@ -1,30 +1,18 @@
 export const single = [
-{
-    name: 'Jan 2017',
-    value: 19
-  },
-  {
-    name: 'Dec 2017',
-    value: 19
-  },
+
   {
     name: 'April 2018',
-    value: 20
+    value: 375
   },
   {
     name: 'May 2018',
-    value: 20
+    value: 399
   },
   {
     name: 'June 2018',
-    value: 20
+    value: 422
   },
-  
-  
-  {
-    name: 'Jan 2019',
-    value: 22
-  }
+
 ];
 
 export const multi = [

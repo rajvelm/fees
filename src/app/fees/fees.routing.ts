@@ -10,5 +10,5 @@ export const FeesRoutes: Routes = [
 			heading: 'Fees',
 			removeFooter: true
 		  }
-	 } 
+	 }
 ];

@@ -1,15 +1,21 @@
 <div class="row">
 
     <div class="col-md-2" >
-      <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)">
-
+      <!-- <select class="form-control" [(ngModel)]="periodVal" (change)="filterPeriod($event)">
         <option value="Jun2018" selected="selected">June 2018</option>
         <option value="May2018">May 2018</option>
         <option value="Apr2018">April 2018</option>
-      </select>
+      </select> -->
+          <label>Period</label>
+          <select class="form-control">
+              <option>Select</option>
+              <option selected>June 2018</option>
+              <option>May 2018</option>
+              <option>April 2018</option>
+          </select>
     </div>
     <div class="col-md-2" >
-      <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)">
+      <!-- <select class="form-control" [(ngModel)]="subExchangeVal" (change)="filterExchange($event)">
         <option value="ALL" selected>All</option>
         <option value="CBOT">CBOT</option>
         <option value="CME">CME</option>
@@ -22,20 +28,37 @@
         <option value="iceeuropecoi">ICE FUTURES EUROPE COI</option>
         <option value="iceeuropefin">ICE FUTURES EUROPE FIN</option>
         <option value="icefuturesus">ICE FUTURES U.S.</option>
+      </select> -->
+
+      <label>Exchange</label>
+      <select class="form-control">
+        <option selected>All</option>
+        <option>CBOT</option>
+        <option>CME</option>
+        <option>COMEX</option>
+        <option>DME</option>
+        <option>NYMEX</option>
+        <option>S&P Indices</option>
+        <option>ICE ENDEX</option>
+        <option>ICE FUTURES CANADA</option>
+        <option>ICE FUTURES EUROPE COI</option>
+        <option>ICE FUTURES EUROPE FIN</option>
+        <option>ICE FUTURES U.S.</option>
       </select>
+
     </div>
-    <div class="col-md-4" ngShow="subExchangeVal!=null">
+
+    <div class="col-md-8" style="text-align:right; padding-right:30px">
       <button class="btn btn-default"  (click)="open(documents)"><i class="fa fa-folder-open" ></i></button>
       <button class="btn btn-default"  (click)="open(waivers)"><i class="fa fa-tag"></i></button>
-    </div>
-    <div class="col-md-4" style="text-align:right; padding-right:30px">
+
       <button class="btn btn-primary"  (click)="open(content)">Upload</button>
       <a href="assets/data/Fees.xlsx" class="btn btn-success">Download Fees</a>
     </div>
 </div>
 <br/>
 <ag-grid-angular
-    style="width: 99%; height: 78vh"
+    style="width: 99%; height: 72vh"
     class="theme-dark"
     [enableSorting]="true"
     [enableFilter]="true"
@@ -46,8 +69,6 @@
   	[gridOptions]="gridOptions"
   	[animateRows]="true"
   	[rowSelection]="rowSelection"
-
-
 	>
 </ag-grid-angular>
 
@@ -69,8 +90,30 @@
             </div>
             <div class="form-group row">
           <label for="datetimeIinput" class="col-3 col-form-label">Period</label>
-          <div class="col-9">
-            <input class="form-control" type="date" value="2018-06-08" id="datetimeIinput">
+          <div class="col-md-9">
+            <div class="row">
+            <select class="form-control col-md-3">
+              <option >Jan </option>
+              <option >Feb </option>
+              <option >Mar </option>
+              <option >Apr </option>
+              <option >May </option>
+              <option selected>Jun </option>
+              <option >Jul </option>
+              <option >Aug </option>
+              <option >Sep </option>
+              <option >Oct </option>
+              <option >Nov </option>
+              <option >Dec </option>
+            </select>
+
+            <select class="form-control col-md-3">
+              <option selected>2018 </option>
+              <option >2017 </option>
+              <option >2016 </option>
+              <option >2015 </option>
+            </select>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -190,6 +233,15 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <td colspan="3">
+                      <select class="form-control">
+                          <option selected>CME </option>
+                          <option>EUREX</option>
+                          <option>ICE</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
                     <td>
                       Normal User
                     </td>
@@ -202,10 +254,10 @@
                   </tr>
                   <tr>
                     <td>
-                      APAC User
+                      AMDI User
                     </td>
                     <td>
-                      APAC User
+                      AMDI
                     </td>
                     <td>
                       BOTENA
@@ -216,7 +268,7 @@
                       Internal NETTED User
                     </td>
                     <td>
-                      NETTED User
+                      NETTED
                     </td>
                     <td>
                       ENCACC
@@ -227,7 +279,7 @@
                       External NETTED User
                     </td>
                     <td>
-                      NETTED User
+                      NETTED
                     </td>
                     <td>
                       BOTENT
@@ -235,10 +287,10 @@
                   </tr>
                   <tr>
                     <td>
-                      View Only User
+                      Tech Support User
                     </td>
                     <td>
-                      VIEW ONLY USER
+                      TECHSUPPORT
                     </td>
                     <td>
                       BOTNCH
