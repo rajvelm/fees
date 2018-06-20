@@ -77,8 +77,8 @@ const MENUITEMS = [
     ]
   },
   {
-    state: 'declarations',
-    name: 'Declarations',
+    state: 'declaration',
+    name: 'Declaration',
     type: 'link',
     icon: 'ecommerce-graph2'
   },

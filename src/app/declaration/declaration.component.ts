@@ -8,10 +8,6 @@ import {GridOptions} from "ag-grid";
   providers:[]
 })
 export class DeclarationComponent {
- 
-  
-}
 
- 
-  
- 
+
+}
