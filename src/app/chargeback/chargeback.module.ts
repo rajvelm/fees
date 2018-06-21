@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+
 import { JsonpModule } from '@angular/http';
 import { AgGridModule} from 'ag-grid-angular/main';
 
@@ -21,6 +23,8 @@ import { ChargebackRoutes } from './chargeback.routing';
 			CommonModule,
 			RouterModule.forChild(ChargebackRoutes),
 			FormsModule,
+      ReactiveFormsModule,
+      NgxChartsModule,
 			ReactiveFormsModule,
 			JsonpModule,
 			AgGridModule.withComponents([]),

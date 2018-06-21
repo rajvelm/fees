@@ -9,5 +9,6 @@ import {GridOptions} from "ag-grid";
 })
 export class DeclarationComponent {
 
+url: string = "http://localhost/" + "#/views/MIDAS-CMEDeclaration/CMEDeclaration?:iid=4"+ "&output =embed";
 
 }

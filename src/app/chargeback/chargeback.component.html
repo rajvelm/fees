@@ -1,3 +1,73 @@
-<div>
-  <img src="assets\images\chargeback.jpg"/>
+<div class="row">
+  <div class="col-sm-2">
+      <label>Exchange</label>
+      <select class="form-control">
+          <option>All</option>
+          <option selected>CME</option>
+          <option>ICE</option>
+          <option>EUREX</option>
+      </select>
+  </div>
+
+  <div class="col-sm-2">
+      <label>Period</label>
+      <select class="form-control">
+          <option>Select</option>
+          <option selected>June 2018</option>
+          <option>May 2018</option>
+          <option>April 2018</option>
+      </select>
+  </div>
+
+  <div class="col-sm-2">
+
+  </div>
+
+  <div class="col-sm-1" style="padding-top:28px">
+
+  </div>
+
+  <div class="col-sm-5" style="text-align:right;padding-top:28px;padding-right:20px">
+
+      <button class="btn btn-default" (click)="open(history)"><i class="fa fa-bar-chart"></i></button>
+
+
+      <!-- <a class="btn btn-primary" href="inventory/transformation" >Validate</a> -->
+  </div>
 </div>
+<br/>
+
+<ag-grid-angular
+    style="width: 99%; height: 72vh;"
+    class="theme-dark"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [rowData]="rowData"
+    [columnDefs]="columnDefs"
+  	[pagination]="true"
+  	[paginationAutoPageSize]="true"
+  	[gridOptions]="gridOptions"
+  	[animateRows]="true"
+  	[rowSelection]="rowSelection"
+	>
+</ag-grid-angular>
+
+<ng-template ngbModalContainer></ng-template>
+
+<ng-template #history let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h6 class="modal-title text-uppercase">Client Chargeback</h6>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+
+      <div class="form-group">
+      <img src="assets\images\chargebackV2.jpg"/>
+</div>
+  </div>
+  <div class="modal-footer">
+     <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
